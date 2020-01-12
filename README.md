@@ -1,0 +1,1 @@
+# 8Queens-Genetic-Algorithm-All-Soulotions
