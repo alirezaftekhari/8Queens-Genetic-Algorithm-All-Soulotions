@@ -79,17 +79,17 @@ while c < 92:
         fitnessMother = getFitness(child2)
         father = child1
         mother = child2
-        print(father)
-        print(mother)
     if getFitness(father) == 28:
         if father not in all:
             all.append(father)
             c += 1
+            print(c)
     else:
         if mother not in all:
             all.append(mother)
             c += 1
-print(len(all))
+            print(c)
+
 print("**********All solutions**********")
 for i in all:
     print(i)
