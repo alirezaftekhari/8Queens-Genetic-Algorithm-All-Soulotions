@@ -62,7 +62,7 @@ def changeChromosome(li):
 
 c = 0
 all = []
-while c < 92:
+while c < 10:
     crossover = 4
     father = []
     mother = []
